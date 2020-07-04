@@ -8,7 +8,7 @@ const app = express();
 //   res.send({ result: 'validado!' });
 // });
 
-//retrielve
+//retrielve get
 app.get('/student', async (req, res) => {
   const student = await studentModel.find({});
   try {
