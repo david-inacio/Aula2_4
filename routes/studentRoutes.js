@@ -4,9 +4,9 @@ import { studentModel } from '../models/studentModel.js';
 const app = express();
 
 //validação da rota
-// app.get('/student', async (req, res) => {
-//   res.send({ result: 'validado!' });
-// });
+app.get('', async (req, res) => {
+  res.send({ result: 'validado!' });
+});
 
 //retrielve get
 app.get('/student', async (req, res) => {
