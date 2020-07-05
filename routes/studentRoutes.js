@@ -18,7 +18,7 @@ app.get('/student', async (req, res) => {
   }
 });
 
-//create
+//create post
 app.post('/student', async (req, res) => {
   const student = new studentModel(req.body);
   try {
